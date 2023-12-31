@@ -6,7 +6,6 @@
   font-stretch: normal;
 }
 
-
 @font-face {
   font-family: "Candara";
   src: url("../fonts/candara-bold.woff") format("woff");
@@ -39,10 +38,6 @@
   font-stretch: normal;
 }
 
-body {
-  background-color: grey;
-}
-
 html {
   font-size: 22px;
   font-family: Candara, sans-serif;
@@ -50,10 +45,10 @@ html {
 }
 
 body {
-  background-color: grey;
-  background-image: url(/Users/enriq/Documents/#Vampires/Website/Raven_files/background.jpg);
+  background-color: rgb(255, 255, 255);
+  background-image: url(../media/page-bkg.jpg);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -67,22 +62,6 @@ img {
   height: auto;
   margin: 0 auto .75em;
   display: block;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
 }
 
 hr {
@@ -121,7 +100,7 @@ ol, ul {
 
 a {
   text-decoration: none;
-  color: #f80000;
+  color: #a02222;
 }
 
 fieldset {
@@ -135,7 +114,7 @@ legend {
   text-transform: lowercase;
   font-size: .85em;
   font-weight: 700;
-  color: black;
+  color: #666666;
 }
 
 .index {
@@ -154,7 +133,7 @@ legend {
   display: block;
   margin: 5px;
   padding: .25em .5em;
-  background-color: #a02622;
+  background-color: #a02222;
   border-radius: .25em;
   text-decoration: none;
   color: white;
@@ -207,7 +186,7 @@ legend {
   bottom: 0;
   left: 0;
   z-index: 11;
-  background-image: url(/Users/enriq/Documents/#Vampires/Website/Raven_files/icon.jpg);
+  background-image: url(../media/close-icon.svg);
   background-position: top right;
   background-size: 2em 2em;
   background-repeat: no-repeat;
